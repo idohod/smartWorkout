@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1069016022878",
+    "firebase_url": "https://smart-workout-63d0a-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "smart-workout-63d0a",
+    "storage_bucket": "smart-workout-63d0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1069016022878:android:de0133b375403fc0a799cf",
+        "android_client_info": {
+          "package_name": "com.example.smartworkout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1069016022878-3kqt3rnbg28jvpu0v133bf87c3o3um0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt7Tz4hJsJTMIH1j9wCIi8GVNxCWce6JY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1069016022878-3kqt3rnbg28jvpu0v133bf87c3o3um0k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

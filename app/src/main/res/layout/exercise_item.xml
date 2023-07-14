@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:backgroundTint="@color/white"
+    android:layout_margin="5dp"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_height="120dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/exercise_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/exercise_name"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+              />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/the_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+               />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/set_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sets"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+              />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/set_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_0"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+               />
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:text="@string/edit"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+              />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/edit_image"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                app:srcCompat="@drawable/baseline_edit_24"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/repetitions_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reps"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+               />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/repetitions_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_0"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+
+                />
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/remove"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/remove"
+                android:layout_marginLeft="100dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/remove_image"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                app:srcCompat="@drawable/baseline_delete_24"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+
+             <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/weight_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weight"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                />
+
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/weight_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_0"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+              />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
