@@ -70,6 +70,7 @@ public class LoginActivity extends AppCompatActivity {
         } else {
             Toast.makeText(this, "Unsuccessful Login!", Toast.LENGTH_SHORT).show();
         }
+
     }
 
     private void moveToMainActivity(FirebaseUser user) {
