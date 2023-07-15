@@ -77,9 +77,9 @@ public class TimerActivity extends AppCompatActivity {
     private void stopTime() {
 
         handler.removeCallbacks(runnable);
-        if (minutes < 2 )
+        if (minutes < 1 )
             SignalGenerator.getInstance().toast("too fast!!", 0);
-        else if (minutes >=2 && minutes<4)
+        else if (minutes >=1 && minutes<3)
             SignalGenerator.getInstance().toast("great time!!", 0);
         else
             SignalGenerator.getInstance().toast("too slow!!", 0);
