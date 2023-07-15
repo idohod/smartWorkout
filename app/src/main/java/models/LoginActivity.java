@@ -27,13 +27,10 @@ import models.MainActivity;
 public class LoginActivity extends AppCompatActivity {
 
 
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         login();
-
-
     }
 
     private void login() {
@@ -70,7 +67,6 @@ public class LoginActivity extends AppCompatActivity {
         } else {
             Toast.makeText(this, "Unsuccessful Login!", Toast.LENGTH_SHORT).show();
         }
-
     }
 
     private void moveToMainActivity(FirebaseUser user) {
