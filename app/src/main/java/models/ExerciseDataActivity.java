@@ -164,7 +164,6 @@ public class ExerciseDataActivity extends AppCompatActivity {
         saveButton = findViewById(R.id.save_button);
 
     }
-
     public void onBackPressed() {
         super.onBackPressed();
         moveActivity();

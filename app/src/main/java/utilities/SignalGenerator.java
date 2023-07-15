@@ -27,5 +27,4 @@ public class SignalGenerator {
 
         Toast.makeText(context, text, length).show();
     }
-
 }

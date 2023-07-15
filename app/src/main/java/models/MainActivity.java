@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
     private String userName;
     private AppCompatImageView backgroundImage;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

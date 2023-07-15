@@ -103,7 +103,6 @@ public class TimerActivity extends AppCompatActivity {
 
     }
 
-
     private void findViews() {
         title = findViewById(R.id.title);
         timer = findViewById(R.id.timer);

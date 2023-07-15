@@ -47,6 +47,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
 
+
     private final ActivityResultLauncher<Intent> signInLauncher = registerForActivityResult(
             new FirebaseAuthUIActivityResultContract(),
             new ActivityResultCallback<FirebaseAuthUIAuthenticationResult>() {

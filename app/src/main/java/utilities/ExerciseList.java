@@ -16,7 +16,6 @@ public class ExerciseList {
     public void setAllExercises(ArrayList<Exercise> allExercises) {
         this.allExercises = allExercises;
     }
-
     @Override
     public String toString() {
         return "ExerciseList{" +
