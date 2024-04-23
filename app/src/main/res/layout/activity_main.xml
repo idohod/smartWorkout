@@ -52,8 +52,8 @@
         android:textColor="@color/white"
         android:text="@string/change_user"
         android:textSize="20sp"
-
         tools:ignore="RtlHardcoded" />
+
     <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
         android:id="@+id/add_exercise_button"
         android:layout_width="170dp"
